@@ -1,0 +1,30 @@
+.Game {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 5.5rem auto;
+    width: 50%;
+    height: 70vh;
+    color: #4710de;
+    font-size: 4rem;
+    justify-items: center;
+    padding-bottom: 40px;
+  }
+  
+  .Game-cell {
+    border: solid 6px #3f1f32;
+    background-color: #17020f;
+    border-radius: 5px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Game-cell.clicked {
+    background-color: #391707;
+  }
+  
